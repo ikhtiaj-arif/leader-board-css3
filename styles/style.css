@@ -1,0 +1,52 @@
+/* -----------------
+common styles
+-------------- */
+
+body{
+    margin: 0;
+}
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Splash&display=swap');
+
+/* ---------------
+nav bar styles
+--------------- */
+.header{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: .1rem;
+
+ 
+}
+.nav-bar{
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 870px;
+}
+.nav-bar img{
+    height: 50px;
+}
+.logo, .menu, .points {
+    display: flex;
+    align-items: center;
+}
+
+
+.points{
+    list-style: none;
+    
+}
+.points a, .title{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0 15px;
+    margin-right: 15px;
+}    
+                   /* nav bar end */
+
